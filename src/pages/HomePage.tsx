@@ -16,8 +16,8 @@ export const HomePage: React.FC = () => {
     // Here you would typically send the data to your backend, Zapier webhook, etc.
     console.log('Form submitted:', data);
     
-    // Redirect to thank you page
-    navigate('/gracias');
+    // Redirect to VSL page
+    navigate('/video');
   };
 
   const scrollToDemo = () => {
